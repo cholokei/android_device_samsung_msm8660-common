@@ -66,6 +66,9 @@ endif
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
+# Adreno configuration
+BOARD_EGL_CFG := device/samsung/msm8660-common/configs/egl.cfg
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
