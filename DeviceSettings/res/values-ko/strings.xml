@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">고급 설정</string>
+    <string name="screen_colors_title">색</string>
+    <string name="category_mdnie_title">화면</string>
+    <string name="mdnie_scenario_title_head">시나리오</string>
+    <string name="mdnie_scenario_summary_head">mDNIe 시나리오 설정</string>
+    <string name="mdnie_mode_title_head">모드</string>
+    <string name="mdnie_mode_summary_head">mDNIe 모드 설정</string>
+    <string name="mdnie_negative_title_head">색상 반전 모드</string>
+    <string name="mdnie_negative_summary_head">색상 반전 켜기</string>
+    <string name="mdnie_outdoor_title_head">야외 모드</string>
+    <string name="mdnie_outdoor_summary_head">야외 모드 켜기</string>
+    <string name="panel_gamma_title_head">화면 감마</string>
+    <string name="panel_gamma_summary_head">화면 감마 값 설정</string>
+    <string name="touchscreen_subcat_title">터치 스크린</string>
+    <string name="touchscreen_sensitivity_title_head">터치 감도</string>
+    <string name="touchscreen_sensitivity_summary_head">터치 패널 감도 설정</string>
+    <string name="category_sensors_title">센서</string>
+    <string name="gyro_subcat_title">자이로스코프</string>
+    <string name="use_gyro_calibration_title_head">보정된 수평 값 사용</string>
+    <string name="use_gyro_calibration_summary_head">보정된 수평 값을 사용합니다. 이 옵션을 선택 후에 수평 보정이 필요합니다!</string>
+    <string name="calibrate_gyro_title_head">수평 보정</string>
+    <string name="calibrate_gyro_summary_head">기기를 평평한 곳에 놓고 보정을 누르세요</string>
+    <string name="touchkey_subcat_title">터치 버튼</string>
+    <string name="touchkey_light_title_head">터치 버튼 LED 활성화</string>
+    <string name="touchkey_light_summary_head">화면이 켜졌을때 터치 버튼 LED가 켜집니다</string>
+    <string name="touchkey_bln_title_head">터치 버튼 BLN 알림 활성화</string>
+    <string name="touchkey_bln_summary_head">화면 꺼짐 후에 알림이 오면 터치 버튼 LED가 켜집니다</string>
+</resources>
