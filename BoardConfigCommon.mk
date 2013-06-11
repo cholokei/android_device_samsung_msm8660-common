@@ -61,7 +61,11 @@ BOARD_HAVE_NEW_QC_GPS := true
 
 # Vold
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
+ifeq ($(BOARD_VOLD_KOR_QUINCY),true)
+BOARD_VOLD_MAX_PARTITIONS := 29
+else
 BOARD_VOLD_MAX_PARTITIONS := 28
+endif
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 
 # Camera
