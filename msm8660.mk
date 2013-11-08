@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio_policy.conf \
     audio.a2dp.default \
     audio_policy.msm8660 \
     audio.primary.msm8660 \
@@ -163,7 +162,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true \
     ro.vendor.extension_library=/system/lib/libqc-opt.so \
     debug.mdpcomp.maxlayer=3 \
-    debug.hwc.dynThreshold=1.9
+    debug.hwc.dynThreshold=1.9 \
+    lpa.decode=false
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/msm8660-common/overlay
